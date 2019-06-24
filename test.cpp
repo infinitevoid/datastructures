@@ -1,19 +1,26 @@
-#include "datastructures/lists/LinkedList.hpp"
+#include "datastructures/basic/Stack.hpp"
 #include <iostream>
 
 using namespace std;
 
 int main(){
-    SinglyLinkedList<int> ll;
-    ll.Add(50);
-    ll.Add(13);
-    cout << ll.First() << " " << ll[1] << endl;
-    cout << "Hello" << endl;
-    //ll.Insert(0,10); ll.Insert(3, 10);
-    ll.Insert(0,1);ll.Insert(3,10);
-    cout << ll.First() << " " << ll.Count() << endl;
-    cout << ll.Last() << " " << ll.First() << endl;
-    ll.Delete(0);ll.Delete(1);
-    cout << ll[0] << " " << ll[1] << endl;
+    Stack<int> st{2};
+    st.Push(12);
+    st.Push(0);
+    st.Push(-12);
+    st.Push(-12);
+    st.Push(-12);
+    st.Push(-12);
+    st.Push(-12);
+    st.Push(-12);
+    st.Push(-12);
+    st.Push(-12);
+    st.Push(1234);
+    st.Push(-2345);
+    st.Push(1232);
+    st.Push(1);
 
+    st.Push(132);
+
+    cout << st.Pop() << " " << st.Count() <<" "<< st.Capacity()<< " " << st.Pop() << endl;
 }

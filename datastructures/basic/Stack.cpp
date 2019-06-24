@@ -1,6 +1,6 @@
 #include "Stack.hpp"
 
-template<typename T>
+template<class T>
 class Stack
 {
     private:

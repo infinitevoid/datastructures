@@ -1,7 +1,7 @@
 #include "SinglyLinkedList.hpp"
 
 // helper class
-template<typename T>
+template<class T>
 class SinglyLinkedNode {
     public:
         // next node in the singly linked chain
@@ -15,7 +15,7 @@ class SinglyLinkedNode {
         }
 };
 
-template<typename T>
+template<class T>
 class SinglyLinkedList
 {
 private:

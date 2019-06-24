@@ -2,7 +2,7 @@
 typedef unsigned int size_t;
 
 // generic singly linked list
-template<typename T>
+template<class T>
 class SinglyLinkedList
 {
     public:

@@ -4,7 +4,7 @@ typedef unsigned int size_t;
 
 
 // generic and dynamic Stack
-template<typename T>
+template<class T>
 class Stack
 {
     public:

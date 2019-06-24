@@ -7,10 +7,17 @@ several datastructures in c++
     - [x] SinglyLinkedList
     - [ ] List (dynamic)
 - Basic
-    - [ ] Stack (dynamic)
+    - [x] Stack (dynamic)
     - [ ] Queue (dynamic)
 - Priority Queues
-    - [ ] FibonacciQueue
+    - [ ] FibonacciHeap
 - Trees
     - [ ] AVLTree
     - [ ] RedBlackTree
+
+## Future...
+- SegmentTree
+- SplayTree
+- HashMap?
+- HashSet?
+- Multisets?

@@ -3,14 +3,14 @@ datastructures in c++
 
 ## Datastructures
 - Lists
-    [] LinkedList
-    [] SinglyLinkedList
-    [] List (dynamic)
+    - [] LinkedList
+    - [] SinglyLinkedList
+    - [] List (dynamic)
 - Basic
-    [] Stack (dynamic)
-    [] Queue (dynamic)
+    - [] Stack (dynamic)
+    - [] Queue (dynamic)
 - Priority Queues
-    [] FibonacciQueue
+    - [] FibonacciQueue
 - Trees
-    [] AVLTree
-    [] RedBlackTree
+    - [] AVLTree
+    - [] RedBlackTree

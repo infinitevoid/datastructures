@@ -2,16 +2,19 @@
 several datastructures in c++
 
 ## Datastructures
-- Lists
+- fancy trees
+    - [ ] Merge-Sort-Tree
+    - [ ] Segment-Tree
+- lists
     - [ ] LinkedList
     - [x] SinglyLinkedList
     - [ ] List (dynamic)
-- Basic
+- basic
     - [x] Stack (dynamic)
     - [ ] Queue (dynamic)
-- Priority Queues
+- priority queues
     - [ ] FibonacciHeap
-- Trees
+- generic trees
     - [ ] AVLTree
     - [ ] RedBlackTree
 

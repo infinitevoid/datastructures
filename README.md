@@ -5,8 +5,9 @@ several datastructures in c++
 - fancy trees
     - [ ] Merge-Sort-Tree
     - [ ] Segment-Tree
+    - [ ] Fenwick-Tree
 - lists
-    - [ ] LinkedList
+    - [x] LinkedList (DoublyLinkedList)
     - [x] SinglyLinkedList
     - [ ] List (dynamic)
 - basic
@@ -15,8 +16,8 @@ several datastructures in c++
 - priority queues
     - [ ] FibonacciHeap
 - generic trees
-    - [ ] AVLTree
-    - [ ] RedBlackTree
+    - [ ] AVL-Tree
+    - [ ] Red-Black-Tree
 
 ## Future...
 - SegmentTree

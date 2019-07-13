@@ -1,26 +1,15 @@
 #include "datastructures/basic/Stack.cpp"
 #include <iostream>
-
+#include "datastructures/lists/LinkedList.cpp"
 using namespace std;
 
 int main(){
-    Stack<int> st{2};
-    st.Push(12);
-    st.Push(0);
-    st.Push(-12);
-    st.Push(-12);
-    st.Push(-12);
-    st.Push(-12);
-    st.Push(-12);
-    st.Push(-12);
-    st.Push(-12);
-    st.Push(-12);
-    st.Push(1234);
-    st.Push(-2345);
-    st.Push(1232);
-    st.Push(1);
-
-    st.Push(132);
-
-    cout << st.Pop() << " " << st.Count() <<" "<< st.Capacity()<< " " << st.Pop() << endl;
+    LinkedList<int> list{};
+    list.Add(123);
+    list.Insert(0,12234);
+    list.Insert(0,334);
+    list.Delete(0);
+    cout << list.First() << endl;
+    cout << list.Last() << endl;
+    return 0;
 }

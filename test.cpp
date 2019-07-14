@@ -5,13 +5,9 @@
 using namespace std;
 
 int main(){
-    LinkedList<int> list{};
-    list.Add(123);
-    list.Insert(0,12234);
-    list.Insert(0,334);
-    list.Delete(0);
-    //cout << list.First() << endl;
-    //cout << list.Last() << endl;
-    cout << log2(2*2*2*2*2+1) << endl;
+    int arr[17] = {1,2,1,2,2,234,123,5,2,234,1234,5,1234,3,2,9,10};
+    MergeSortTree<int> tree{arr,17};
+    tree.Debug();
+    cout << tree.RangeLessEqual(10,0,16) << endl;
     return 0;
 }

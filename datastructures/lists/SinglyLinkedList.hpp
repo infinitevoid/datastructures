@@ -35,7 +35,7 @@ class SinglyLinkedList
         T Last(){ assert(m_count > 0); return m_end->Cargo; }
         // appends element in O(1)
         void Add(T element);
-        // inserts elemen   t in O(n) (for indices 0 and Count() in O(1))
+        // inserts element in O(n) (for indices 0 and Count() in O(1))
         void Insert(size_t index, T element);
         // deletes element in O(n) (for first and last element in O(1))
         void Delete(size_t index);

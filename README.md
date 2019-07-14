@@ -3,7 +3,7 @@ several datastructures in c++
 
 ## Datastructures
 - fancy trees
-    - [ ] Merge-Sort-Tree
+    - [x] Merge-Sort-Tree
     - [ ] Segment-Tree
     - [ ] Fenwick-Tree
 - lists

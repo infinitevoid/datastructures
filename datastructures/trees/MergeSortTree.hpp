@@ -35,6 +35,10 @@ class MergeSortTree
     public:
         // creates a merge-sort-tree from an array with length <count>    
         MergeSortTree(T array[], size_t count);
+        // height of the tree
+        size_t Height(){return m_height;}
+        // count of elements in original array
+        size_t Count(){return m_row;}
         // returns the amount of elements in the range [start,end] which are <= cmp in O(log^2(n)) 
         int RangeLessEqual(T cmp, size_t start, size_t end);
         // returns the amount of elements in the range [start,end] which are > cmp in O(log^2(n))

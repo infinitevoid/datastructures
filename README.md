@@ -4,7 +4,7 @@ several datastructures in c++
 ## Datastructures
 - fancy trees
     - [x] Merge-Sort-Tree
-    - [ ] Segment-Tree
+    - [x] Segment-Tree
     - [ ] Fenwick-Tree
 - lists
     - [x] LinkedList (DoublyLinkedList)
@@ -20,7 +20,7 @@ several datastructures in c++
     - [ ] Red-Black-Tree
 
 ## Future...
-- SegmentTree
+- Fractional-Cascading-Structure
 - SplayTree
 - HashMap?
 - HashSet?

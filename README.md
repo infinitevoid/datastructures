@@ -1,7 +1,7 @@
-# Datastructures
-several datastructures in c++
+# data structures
+several data structures in c++
 
-## Datastructures
+## data structures
 - fancy trees
     - [x] Merge-Sort-Tree
     - [x] Segment-Tree
@@ -19,7 +19,7 @@ several datastructures in c++
     - [ ] AVL-Tree
     - [ ] Red-Black-Tree
 
-## Future...
+## future...
 - Fractional-Cascading-Structure
 - SplayTree
 - HashMap?

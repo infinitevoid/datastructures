@@ -24,5 +24,8 @@
         "system_error": "cpp",
         "type_traits": "cpp",
         "typeinfo": "cpp"
-    }
+    },
+    /*"code-runner.executorMap": {
+        "cpp": "C:/mingw32/bin/g++"
+    }*/
 }

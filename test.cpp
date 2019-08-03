@@ -1,14 +1,7 @@
 #include <iostream>
-#include "datastructures/trees/AVLTree.cpp"
-using namespace std;
-
-
 
 int main(){
-    AVLTree<int> avl{};
-    avl.Insert(12);
-    avl.Insert(23);
-    avl.Insert(-12);
-    cout << avl.Max() << "|" << avl.Min() << endl;
+    std::cout << "hello 123\n" << std::endl;
+    std::cout << "hello ASDasdsadf" << std::endl;
     return 0;
 }

@@ -16,7 +16,7 @@ several data structures in c++
 - priority queues
     - [ ] FibonacciHeap
 - generic trees
-    - [ ] AVL-Tree
+    - [x] AVL-Tree
     - [ ] Red-Black-Tree
 
 ## future...

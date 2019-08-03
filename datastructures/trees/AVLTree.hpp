@@ -17,8 +17,8 @@ class AVLNode
         AVLNode<T>* Insert(AVLNode<T>* node);
         AVLNode<T>* Remove(T key);
         // min and max
-        T Min();
-        T Max();
+        AVLNode<T>* Min();
+        AVLNode<T>* Max();
         bool Contains(T key);
         // Balance = Right->Height - Left->Height
         int Balance();

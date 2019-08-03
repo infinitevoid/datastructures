@@ -25,7 +25,7 @@
         "type_traits": "cpp",
         "typeinfo": "cpp"
     },
-    /*"code-runner.executorMap": {
-        "cpp": "C:/mingw32/bin/g++"
-    }*/
+    "code-runner.executorMap": {
+        "cpp": "C:/mingw32/bin/g++ $fullFileName -static-libstdc++ -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+    }
 }

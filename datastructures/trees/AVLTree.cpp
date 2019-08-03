@@ -54,17 +54,17 @@ AVLNode<T>* AVLNode<T>::Remove(T key)
 }
 
 template<class T>
-T AVLNode<T>::Min()
+AVLNode<T>* AVLNode<T>::Min()
 {
     if(Left != nullptr) return Left->Min();
-    return Key;
+    return this;
 }
 
 template<class T>
-T AVLNode<T>::Max()
+AVLNode<T>* AVLNode<T>::Max()
 {
     if(Right != nullptr) return Right->Max();
-    return Key;
+    return this;
 }
 
 template<class T>
@@ -167,7 +167,7 @@ bool AVLTree<T>::Contains(T key)
 
 template<class T>
 T AVLTree<T>::Min()
-{ return root->Min(); }
+{ return root->Min()->Key; }
 template<class T>
 T AVLTree<T>::Max()
-{ return root->Max(); }
+{ return root->Max()->Key; }
